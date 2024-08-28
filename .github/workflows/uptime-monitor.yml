@@ -1,6 +1,7 @@
 name: Uptime Monitor
 run-name: ${{ github.actor }} is monitoring justinbird.xyz.
 on:
+  workflow_dispatch:
   schedule:
     # Run job every 6 hours
     - cron:  '0 0,6,12,18 * * *'
