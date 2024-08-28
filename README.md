@@ -1,3 +1,5 @@
+[![Uptime Monitor](https://github.com/JustinBird/justinbird.xyz/actions/workflows/uptime-monitor.yml/badge.svg)](https://github.com/JustinBird/justinbird.xyz/actions/workflows/uptime-monitor.yml)
+
 ## About
 
 This is my personal website, available [here](https://justinbird.xyz).
