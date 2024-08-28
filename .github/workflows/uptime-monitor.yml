@@ -5,14 +5,9 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Request site
+      - name: Checkout
         uses: actions/checkout@v4
-      - run: |
-          curl -o remote.html https://justinbird.xyz
-          cat remote.html
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+      - name: Request Site
+        run: curl -o remote.html -s https://justinbird.xyz
+      - name: Compare Remote
+        run: diff index.html remote.html
