@@ -1,4 +1,4 @@
 /*
 	X-Content-Type-Options: nosniff
-	Content-Security-Policy: default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; script-src 'unsafe-inline https://googletagmanager.com/'; sandbox 'allow-scripts'
+	Content-Security-Policy: default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; script-src 'unsafe-inline https://googletagmanager.com/'; sandbox 'allow-scripts';
 	Cache-Control: public; max-age=259200
